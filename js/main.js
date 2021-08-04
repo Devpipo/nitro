@@ -26,7 +26,7 @@ function gerar() {
   "showMethod": "fadeIn",
   "hideMethod": "fadeOut"
 }
-toastr["success"]("Codigo Gerado Com Sucesso", "Pronto") 
+toastr["success"]("Successfuly copied to de clipboard", "Copied !") 
     
     document.getElementById("nitro").innerHTML = "https://discord.gift/" + makeid(16);
      $(".copy").removeClass("d-none");
